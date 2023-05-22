@@ -323,6 +323,7 @@ add_default($nl, 'case_name');
 add_default($nl, 'gcam_config');
 add_default($nl, 'base_co2_surface_file');
 add_default($nl, 'base_co2_aircraft_file');
+add_default($nl, 'gcam_base_co2_emission_file');
 add_default($nl, 'base_npp_file');
 add_default($nl, 'base_hr_file');
 add_default($nl, 'base_pft_file');

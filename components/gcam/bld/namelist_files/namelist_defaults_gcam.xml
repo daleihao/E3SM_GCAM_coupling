@@ -26,16 +26,17 @@ for the iac data in the e3sm distribution
 <num_gcam_land_regions>392</num_gcam_land_regions>
 <num_iac2elm_landtypes>9</num_iac2elm_landtypes>
 <num_emiss_sectors>2</num_emiss_sectors>
-<num_emiss_regions>1</num_emiss_regions>
+<num_emiss_regions>32</num_emiss_regions>
 
 <!-- gcam config and init files, hardcoded paths on compy for now -->
 <gcam_config>/compyfs/d3x132/gcam-e3sm/exe/configuration_ref.xml</gcam_config>
 <base_co2_surface_file>/compyfs/d3x132/gcam-e3sm/cpl/data/gcam_CO2-em-anthro_0.9x1.25_201401-201412_c20200406.txt</base_co2_surface_file>
 <base_co2_aircraft_file>/compyfs/d3x132/gcam-e3sm/cpl/data/gcam_CO2-em-AIR-anthro_0.9x1.25_201401-201412_c20200427.txt</base_co2_aircraft_file>
+<gcam_base_co2_emission_file>/qfs/people/haod776/GCAM_test/data/co2_2015_gcam_out_regional.csv</gcam_base_co2_emission_file>
 <base_npp_file>/compyfs/d3x132/gcam-e3sm/cpl/data/base_npp_mean_pft.txt</base_npp_file>
 <base_hr_file>/compyfs/d3x132/gcam-e3sm/cpl/data/base_hr_mean_pft.txt</base_hr_file>
 <base_pft_file>/compyfs/d3x132/gcam-e3sm/cpl/data/base_pft_wt.txt</base_pft_file>
-<gcam2elm_co2_mapping_file>/qfs/people/d3a230/E3SM_gcam_core_submodule/components/gcam/src/iac/gcam/cpl/mappings/co2.xml</gcam2elm_co2_mapping_file>
+<gcam2elm_co2_mapping_file>/qfs/people/haod776/GCAM_test/E3SM_gcam_test/components/gcam/src/iac/gcam/cpl/mappings/co2.xml</gcam2elm_co2_mapping_file>
 <gcam2elm_luc_mapping_file>/qfs/people/d3a230/E3SM_gcam_core_submodule/components/gcam/src/iac/gcam/cpl/mappings/luc.xml</gcam2elm_luc_mapping_file>
 <gcam2elm_woodharvest_mapping_file>/qfs/people/d3a230/E3SM_gcam_core_submodule/components/gcam/src/iac/gcam/cpl/mappings/woodharvest.xml</gcam2elm_woodharvest_mapping_file>
 

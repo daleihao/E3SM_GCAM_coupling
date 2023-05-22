@@ -48,6 +48,15 @@ Initial co2 surface emissions file
 Initial co2 aircraft emissions file
 </entry>
 
+<entry id="gcam_base_co2_emission_file"
+	type="char*256"
+	category="gcam"
+	input_pathname="abs"
+	group="gcam_inparm"
+	valid_values="">
+Initial GCAM regional co2 emissions file
+</entry>
+
 <entry id="base_npp_file"
 	type="char*256"
 	category="gcam"
